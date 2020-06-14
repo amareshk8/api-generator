@@ -1,4 +1,4 @@
-siFROM fabric8/java-alpine-openjdk8-jre
+FROM fabric8/java-alpine-openjdk8-jre
 VOLUME /tmp
 <%_ if (buildTool === 'maven') { _%>
 ADD target/<%= appName %>-<%= DEFAULT_APP_VERSION %>.jar app.jar
