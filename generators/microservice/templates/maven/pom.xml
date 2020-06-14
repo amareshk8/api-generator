@@ -18,7 +18,7 @@
         <java.version><%= JAVA_VERSION %></java.version>
         <spring-cloud.version><%= SPRING_CLOUD_VERSION %></spring-cloud.version>
         <problem-spring-web.version><%= PROBLEM_SPRING_WEB_VERSION %></problem-spring-web.version>
-        <springboot-tc-starter.version><%= SPRING_BOOT_TC_STARTER_VERSION %></springboot-tc-starter.version>
+        <springboot-tc-starter.version><%= EMBEDED_POSTRAGE_SQL_VERSION %></springboot-tc-starter.version>
         <swagger.version><%= SWAGGER_VERSION %></swagger.version>
     </properties>
 

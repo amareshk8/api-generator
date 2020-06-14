@@ -11,7 +11,7 @@ module.exports = class extends BaseGenerator {
     }
 
     initializing() {
-        this.logSuccess('Generating Config Server');
+        this.logSuccess('Bootstraping springboot microservices...');
     }
 
     get prompting() {

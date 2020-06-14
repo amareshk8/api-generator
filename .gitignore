@@ -1,5 +1,1 @@
-.idea/
-*.iml
-node_modules/
-/testapp
-/myservice/
+node_modules

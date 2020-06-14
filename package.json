@@ -1,7 +1,7 @@
 {
-  "name": "generator-springboot",
-  "version": "0.0.6",
-  "description": "A Yeoman generator for generating SpringBoot microservices",
+  "name": "generator-springbootms",
+  "version": "1.0.0",
+  "description": "CLI SpringBoot microservices generator.",
   "keywords": [
     "yeoman-generator",
     "java",
@@ -19,15 +19,16 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/amareshk8/api-generator"
   },
   "author": "Amaresh Kumar <amareshk8@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/amareshk8/api-generator"
   },
   "homepage": "",
   "dependencies": {
+    "yo": "3.1.1",
     "chalk": "4.1.0",
     "lodash": "4.17.15",
     "yeoman-generator": "4.10.1"

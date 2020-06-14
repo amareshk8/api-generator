@@ -49,6 +49,13 @@ module.exports = class extends Generator {
             configOptions
         );
     }
+    generatePCFManifestConfig(configOptions) {
+        this.fs.copyTpl(
+            this.templatePath('app/manifest.yml'),
+            this.destinationPath('manifest.yml'),
+            configOptions
+        );
+    }
 
     generateJenkinsfile(configOptions) {
         this.fs.copyTpl(

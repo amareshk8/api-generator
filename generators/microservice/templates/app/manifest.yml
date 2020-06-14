@@ -1,0 +1,11 @@
+name: <%= appName %>
+stack: examplestack
+instances: 1
+random-route: true
+path: target/<%= appName %>-1.0.0-SNAPSHOT.jar
+buildpack: https://github.com/cloudfoundry/java-buildpack.git
+memory: 1G
+env:
+    SPRING_PROFILES_ACTIVE : cloud
+services:
+    - exampledb

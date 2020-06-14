@@ -27,7 +27,7 @@ repositories {
 ext {
     set('springCloudVersion', "<%= SPRING_CLOUD_VERSION %>")
     set('swaggerVersion', "<%= SWAGGER_VERSION %>")
-    set('springbootTcStarterVersion', "<%= SPRING_BOOT_TC_STARTER_VERSION %>")
+    set('springbootTcStarterVersion', "<%= EMBEDED_POSTRAGE_SQL_VERSION %>")
     set('problemSpringWebVersion', "<%= PROBLEM_SPRING_WEB_VERSION %>")
 }
 

@@ -33,6 +33,7 @@ module.exports = class extends BaseGenerator {
         this.generateGithubCIfile(this.configOptions);
         this._generateDbMigrationConfig(this.configOptions);
         this._generateDockerComposeFiles(this.configOptions);
+        this.generatePCFManifestConfig(this.configOptions);
         this.generateEntityfile(this.configOptions);
         this.generateRepositoryfile(this.configOptions);
         this.generateServicefile(this.configOptions);
