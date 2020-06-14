@@ -1,4 +1,4 @@
-package <%= packageName %>.web.controller;
+package <%= packageName %>.controller;
 
 import <%= packageName %>.entity.<%= entityName %>;
 import <%= packageName %>.service.<%= entityName %>Service;
