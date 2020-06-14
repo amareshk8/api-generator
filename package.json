@@ -1,0 +1,43 @@
+{
+  "name": "generator-springboot",
+  "version": "0.0.6",
+  "description": "A Yeoman generator for generating SpringBoot microservices",
+  "keywords": [
+    "yeoman-generator",
+    "java",
+    "spring",
+    "spring-boot",
+    "microservice"
+  ],
+  "files": [
+    "generators"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test:unit -- test/**/*.spec.js test/*.spec.js --no-insight",
+    "test:unit": "mocha --timeout 30000 --slow 0 --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Amaresh Kumar <amareshk8@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "chalk": "4.1.0",
+    "lodash": "4.17.15",
+    "yeoman-generator": "4.10.1"
+  },
+  "devDependencies": {
+    "chai": "4.2.0",
+    "fs-extra": "9.0.1",
+    "mocha": "8.0.1",
+    "sinon": "9.0.2",
+    "yeoman-assert": "3.1.1",
+    "yeoman-test": "2.6.0"
+  }
+}
