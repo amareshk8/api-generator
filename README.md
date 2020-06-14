@@ -93,7 +93,7 @@ This will generate:
 * Unit and Integration Tests for REST Controller
 * Flyway or Liquibase migration to create table
 
-![Microservice Generation](docs/Endpoint generation.png)
+![Microservice Generation](docs/Endpoint_generation.png)
 
 ### FolderStructure of generated services
 ![Microservice Generation](docs/FolderStructure.png)
@@ -108,13 +108,10 @@ This will generate:
 ![Microservice Generation](docs/dockerfile.png)
 
 ### PCF Manifest file
-![Microservice Generation](docs/PCF mainfest file.png)
+![Microservice Generation](docs/PCF_mainfest_file.png)
 
 ### Jenkinsfile
-![Microservice Generation](docs/Jenkins file.png)
-
-### FolderStructure of generated services
-![Microservice Generation](docs/FolderStructure.png)
+![Microservice Generation](docs/Jenkinsfile.png)
 
 ### Sample controller
-![Microservice Generation](docs/crud-generation.png)
+![Microservice Generation](docs/SampleController.png)
